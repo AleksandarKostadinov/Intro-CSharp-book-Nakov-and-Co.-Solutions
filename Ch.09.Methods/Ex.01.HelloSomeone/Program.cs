@@ -10,6 +10,12 @@ namespace Ex._01.HelloSomeone
     {
         static void Main(string[] args)
         {
+            var name = Console.ReadLine();
+            PrintHelloSomeone(name);
+        }
+        static void PrintHelloSomeone(string someName)
+        {
+            Console.WriteLine($"Hello, {someName}!");
         }
     }
 }
